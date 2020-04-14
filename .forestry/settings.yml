@@ -12,7 +12,6 @@ sections:
 - type: document
   path: package.json
   label: Scripts
-  match: "**/*"
 - type: document
   path: blog/index.md
   label: Home
@@ -44,4 +43,4 @@ build:
   preview_docker_image: node:10
   mount_path: "/srv"
   working_dir: "/srv"
-  instant_preview_command: npm run develop
+  instant_preview_command: npm run dev
